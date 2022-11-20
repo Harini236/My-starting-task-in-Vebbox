@@ -1,0 +1,14 @@
+a = int (input("enter number"))
+if a%2==0:
+    print("number is even")
+else:
+    print("number is odd")
+tam = int (input("enter mark"))
+eng= int (input("enter mark"))
+mat = int (input("enter mark"))
+sci = int (input("enter mark"))
+soc = int (input("enter mark"))
+
+a = tam+eng+mat+sci+soc/5
+if a >= 90:
+    print("A grade")
